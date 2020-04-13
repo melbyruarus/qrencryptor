@@ -11,6 +11,9 @@
 		A14D0FA1244427A900A25F0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14D0FA0244427A900A25F0B /* ViewController.swift */; };
 		A14D0FA3244427AB00A25F0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14D0FA2244427AB00A25F0B /* Assets.xcassets */; };
 		A14D0FA6244427AB00A25F0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14D0FA4244427AB00A25F0B /* Main.storyboard */; };
+		A14D0FAF24442A9B00A25F0B /* encrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14D0FAE24442A9B00A25F0B /* encrypt.swift */; };
+		A14D0FB12444376000A25F0B /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14D0FB02444376000A25F0B /* WindowController.swift */; };
+		A14D0FB52444397F00A25F0B /* decrypt.py in Resources */ = {isa = PBXBuildFile; fileRef = A14D0FB42444397F00A25F0B /* decrypt.py */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		A14D0FA5244427AB00A25F0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A14D0FA7244427AB00A25F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A14D0FA8244427AB00A25F0B /* qrencryptor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = qrencryptor.entitlements; sourceTree = "<group>"; };
+		A14D0FAE24442A9B00A25F0B /* encrypt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = encrypt.swift; sourceTree = "<group>"; };
+		A14D0FB02444376000A25F0B /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		A14D0FB42444397F00A25F0B /* decrypt.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = decrypt.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +43,7 @@
 		A14D0F92244427A800A25F0B = {
 			isa = PBXGroup;
 			children = (
+				A14D0FB42444397F00A25F0B /* decrypt.py */,
 				A14D0F9D244427A900A25F0B /* qrencryptor */,
 				A14D0F9C244427A900A25F0B /* Products */,
 			);
@@ -55,6 +62,8 @@
 			children = (
 				A14D0F9E244427A900A25F0B /* AppDelegate.swift */,
 				A14D0FA0244427A900A25F0B /* ViewController.swift */,
+				A14D0FB02444376000A25F0B /* WindowController.swift */,
+				A14D0FAE24442A9B00A25F0B /* encrypt.swift */,
 				A14D0FA2244427AB00A25F0B /* Assets.xcassets */,
 				A14D0FA4244427AB00A25F0B /* Main.storyboard */,
 				A14D0FA7244427AB00A25F0B /* Info.plist */,
@@ -121,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A14D0FB52444397F00A25F0B /* decrypt.py in Resources */,
 				A14D0FA3244427AB00A25F0B /* Assets.xcassets in Resources */,
 				A14D0FA6244427AB00A25F0B /* Main.storyboard in Resources */,
 			);
@@ -134,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A14D0FA1244427A900A25F0B /* ViewController.swift in Sources */,
+				A14D0FB12444376000A25F0B /* WindowController.swift in Sources */,
 				A14D0F9F244427A900A25F0B /* AppDelegate.swift in Sources */,
+				A14D0FAF24442A9B00A25F0B /* encrypt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
